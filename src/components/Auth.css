@@ -199,7 +199,7 @@
 
 .input-icon {
   position: absolute;
-  left: 12px;           /* ou 0.75rem, 12px... à toi de voir la distance voulue */
+  left: 14px;           /* ou 0.75rem, 12px... à toi de voir la distance voulue */
   top: 50%;
   transform: translateY(-50%);   /* centre verticalement l'icône */
   font-size: 1.25rem;
