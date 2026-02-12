@@ -199,12 +199,14 @@
 
 .input-icon {
   position: absolute;
-  left: 9rem;
+  left: 10px;           /* ou 0.75rem, 12px... à toi de voir la distance voulue */
+  top: 50%;
+  transform: translateY(-50%);   /* centre verticalement l'icône */
   font-size: 1.25rem;
-  pointer-events: none;
+  pointer-events: none;          /* permet de cliquer à travers l'icône */
   z-index: 1;
+  color: #6b7280;       /* optionnel : couleur grise classique */
 }
-
 .input-wrapper input {
   width: 100%;
   padding: 0.875rem 1rem 0.875rem 3rem;
