@@ -558,3 +558,12 @@
 .status-dot.offline {
   background: var(--text-light);
 }
+.btn-back {
+  background: #2563eb;
+  transform: translateY(-1px);
+  box-shadow: 0 5px 13px rgba(59, 130, 246, 0.3);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+}
